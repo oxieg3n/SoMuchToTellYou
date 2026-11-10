@@ -1,6 +1,6 @@
 # So Much to Tell You
 
-Interactive first-use prototype, build **1110-HomecomingFlow**, created for design review.
+Interactive first-use prototype, build **1110-BrandRefresh**, created for design review.
 
 ## Live preview
 
@@ -44,7 +44,7 @@ Following design approval: native Android (family/friends); responsive family we
 5. Accessible from the beginning.
 6. Usable by someone unfamiliar with modern smartphones.
 
-Brand: charcoal **#202C36**, burnt orange **#D76A35**, warm ivory **#F0E8DA**. Approved bookmark + rising paragraph concept. The vector drawing in this prototype is an approximation; a canonical vector version of the approved image remains to be created and verified.
+Brand: deep green **#172734**, white **#FFFFFF**, cream **#FBF1E3**, signature orange **#F47721**. The book-spine outline uses a brighter orange highlight **#F6A51B**, confined to the icon. The top bar is orange with green readable text; the content background is cream. Main logo: `assets/logo.svg`; icon-only: `assets/book-spine-mark.svg`. These are editable vectors based on the approved visual reference; the wordmark's font remains live SVG text for the prototype.
 
 ## Branch
 

@@ -1,6 +1,6 @@
 # So Much to Tell You
 
-Interactive first-use prototype, build **1110-BrandRefresh**, created for design review.
+Interactive first-use prototype, build **1110-FixedBlankScreen**, created for design review.
 
 ## Live preview
 
@@ -49,3 +49,7 @@ Brand: deep green **#172734**, white **#FFFFFF**, cream **#FBF1E3**, signature o
 ## Branch
 
 `design/1110-first-homecoming-demo`. This branch is deliberately separate from `main`.
+
+## 2026-11-10 demo repair
+
+Fixed a blank-screen regression caused by calling a removed `name()` helper after switching the sidebar to the complete SVG logo. The interface now uses `logo()` alone. Added a visible fallback if a future render unexpectedly throws an exception. Tested live mobile browser rendering and the family memory creation workflow after redeployment.

@@ -53,3 +53,12 @@ Brand: deep green **#172734**, white **#FFFFFF**, cream **#FBF1E3**, signature o
 ## 2026-11-10 demo repair
 
 Fixed a blank-screen regression caused by calling a removed `name()` helper after switching the sidebar to the complete SVG logo. The interface now uses `logo()` alone. Added a visible fallback if a future render unexpectedly throws an exception. Tested live mobile browser rendering and the family memory creation workflow after redeployment.
+
+## Desktop device-size preview links
+
+- **Mobile portrait (390 × 844)**: https://smty-homecoming-demo.jamesahastings810.workers.dev/preview/mobile
+- **Tablet portrait (820 × 1180)**: https://smty-homecoming-demo.jamesahastings810.workers.dev/preview/tablet
+- Both views support **Rotate device** to test landscape sizes, and load the same interactive live demo inside a same-origin iframe.
+- The original website remains available at https://smty-homecoming-demo.jamesahastings810.workers.dev/
+- The preview is a browser viewport simulation, not Android/iOS emulation. The real Android application remains future work.
+- Frame embedding is permitted only by our own domain via the demo Worker’s `frame-ancestors 'self'` CSP.
